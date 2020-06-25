@@ -58,3 +58,20 @@ apt install --no-install-recommends -y network-manager net-tools wireless-tools 
 ```
 
 For now, you have a very basic system which can be used and booted from a bootable medium. 
+
+## Live Disc Customization
+
+It's not a hard thing to do, you can just install everything you want using `chroot`. 
+
+### Important notes 
+
+In case of installing `libreoffice` or any other Java programs, do this before `chroot`ing to the directory : 
+
+```
+sudo mount --bind /dev chroot/dev
+sudo mount --bind /dev/pts chroot/dev/pts
+sudo mount -t proc proc chroot/proc
+sudo mount -t sysfs sysfs chroot/sys
+``` 
+
+And after you finished your customization/installations, unmount these using `umount` and then go for the ISO. 
