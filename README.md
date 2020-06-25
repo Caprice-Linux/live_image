@@ -46,8 +46,15 @@ After going to the bootstrapped installation shell, you just need to do this :
 apt update
 apt dist-upgrage 
 apt install -y linux-image-amd64
+apt install live-boot
 ``` 
 
 ### Necessary tools for a live disc 
 
-After you installed the live disc, what you need is a bunch of tools for editing configuration files, 
+After you installed the live disc, what you need is a bunch of tools for editing configuration files, accessing to a network, etc. So, we have to install these packages: 
+
+```
+apt install --no-install-recommends -y network-manager net-tools wireless-tools curl openssh-client
+```
+
+For now, you have a very basic system which can be used and booted from a bootable medium. 
