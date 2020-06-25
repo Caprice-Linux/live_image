@@ -95,3 +95,10 @@ To build an iso, for example for _Sana Desktop_, you just need to execute this c
 ```
 ./build_image.sh Sana_Desktop.iso isotmp SANA_DESKTOP chroot
 ``` 
+
+## TODO 
+
+- [ ] Providing a script for bootstrapping the system
+- [ ] Providing a script for installing different desktop environments or window managers. 
+- [ ] Providing explanations for `build_image.sh` paramaters (high priority)
+- [ ] Providing a persian translation for this document. 
