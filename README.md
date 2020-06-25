@@ -29,3 +29,25 @@ sudo debootstrap --arch=amd64 testing chroot/ http://repo.flossir.org/debian
 ``` 
 
 _NOTE_: You can change the repository to your desired one, as well as the architecture and even the `chroot` directory. 
+
+### Installing the kernel 
+
+After bootstrapping finished, you just need to do this : 
+
+```
+sudo chroot chroot/
+``` 
+
+_NOTE_: If you use any shells other than `bash` and it's not installed in your `chroot` environment, you need to do `sudo chroot chroot/ /bin/bash` to access the shell without any problems.
+
+After going to the bootstrapped installation shell, you just need to do this : 
+
+```
+apt update
+apt dist-upgrage 
+apt install -y linux-image-amd64
+``` 
+
+### Necessary tools for a live disc 
+
+After you installed the live disc, what you need is a bunch of tools for editing configuration files, 
