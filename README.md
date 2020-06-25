@@ -75,3 +75,23 @@ sudo mount -t sysfs sysfs chroot/sys
 ``` 
 
 And after you finished your customization/installations, unmount these using `umount` and then go for the ISO. 
+
+## Building the ISO 
+
+### Copying the kernel and init images 
+
+First, just do this : 
+
+```cp chroot/vmlinuz-* isotmp/live/vmlinuz.img``` 
+
+Then : 
+
+```cp chroot/initrd* isotmp/live/initrd.img``` 
+
+### Final ISO build 
+
+To build an iso, for example for _Sana Desktop_, you just need to execute this command : 
+
+```
+./build_image.sh Sana_Desktop.iso isotmp SANA_DESKTOP chroot
+``` 
