@@ -1,4 +1,4 @@
-# Sana Desktop Live Builder
+# Caprice Linux Live Builder
 
 This script just makes a live disc out of a given `squashfs` file. To build the whole thing, You need to follow the instructions of this document. 
 
@@ -90,10 +90,10 @@ Then :
 
 ### Final ISO build 
 
-To build an iso, for example for _Sana Desktop_, you just need to execute this command : 
+To build an iso, for example for _Caprice Linux_, you just need to execute this command : 
 
 ```
-./build_image.sh Sana_Desktop.iso isotmp SANA_DESKTOP chroot
+./build_image.sh Caprice_Linux.iso isotmp CAPRICELINUX chroot
 ``` 
 
 ## TODO 
