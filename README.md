@@ -82,11 +82,11 @@ And after you finished your customization/installations, unmount these using `um
 
 First, just do this : 
 
-```cp chroot/vmlinuz-* isotmp/live/vmlinuz.img``` 
+```cp chroot/boot/vmlinuz-* isotmp/live/vmlinuz.img``` 
 
 Then : 
 
-```cp chroot/initrd* isotmp/live/initrd.img``` 
+```cp chroot/boot/initrd* isotmp/live/initrd.img``` 
 
 ### Final ISO build 
 
