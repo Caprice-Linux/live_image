@@ -25,7 +25,7 @@ And you also need a Debian or Ubuntu host. If you use other types of Debian (suc
 Just clone this repository and go to its directory then create a folder and call it `chroot`, then use the following command to create a bootstrapped installation of the Debian GNU/Linux. 
 
 ```
-sudo debootstrap --arch=amd64 testing chroot/ http://repo.flossir.org/debian
+sudo debootstrap --arch=amd64 testing chroot/ http://deb.debian.org/debian
 ``` 
 
 _NOTE_: You can change the repository to your desired one, as well as the architecture and even the `chroot` directory. 
@@ -82,7 +82,7 @@ And after you finished your customization/installations, unmount these using `um
 
 First, just do this : 
 
-```cp chroot/boot/vmlinuz-* isotmp/live/vmlinuz.img``` 
+```cp chroot/boot/vmlinuz-* isotmp/live/vmlinuz``` 
 
 Then : 
 
