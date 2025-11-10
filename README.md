@@ -99,6 +99,8 @@ To build an iso, for example for _Caprice Linux_, you just need to execute this 
 ## TODO 
 
 - [ ] Providing a script for bootstrapping the system
+    - [ ] Debootstrap
+    - [x] Hard Disk install
 - [ ] Providing a script for installing different desktop environments or window managers. 
 - [ ] Providing explanations for `build_image.sh` paramaters (high priority)
 - [x] Providing a persian translation for this document. 
