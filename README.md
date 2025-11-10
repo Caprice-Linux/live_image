@@ -1,6 +1,6 @@
 # Caprice Linux Live Builder
 
-This script just makes a live disc out of a given `squashfs` file. To build the whole thing, You need to follow the instructions of this document. 
+This script just makes a live disc out of a given `squashfs` file. To build the whole thing, You need to follow the instructions of this document. This guide is also available in Persian through [this link](https://haghiri75.com/2021/01/08/%DA%86%D8%B7%D9%88%D8%B1-%DB%8C%DA%A9-%D8%AA%D9%88%D8%B2%DB%8C%D8%B9-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3-%D8%A8%D8%B3%D8%A7%D8%B2%DB%8C%D9%85%D8%9F/).
 
 ## Live Disc From a Hard Disk Install
 
