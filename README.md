@@ -4,7 +4,7 @@ This script just makes a live disc out of a given `squashfs` file. To build the 
 
 ## Live Disc From a Hard Disk Install
 
-TO BE COMPLETED
+For this, you must install `rsync` (which may be shipped with your Debian/Ubuntu installation) and then run the script `file_gathering.sh` which creates the `chroot` folder from your current Hard Disk installation. The rest goes the same from [this part](#necessary-tools-for-a-live-disc). And do not forget to install `live-boot` package as well.
 
 ## Live Disc From a Bootstrapped Install 
 
